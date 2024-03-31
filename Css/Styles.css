@@ -1,0 +1,50 @@
+:root{
+    --lightgreen: #a3ce82;
+    --pink: #fd5d62;
+    --purple: #6f3a8b;
+    --blue: #326f98;
+}
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 1px;
+    background-image: linear-gradient(to bottom right, var(--pink), var(--purple), var(--blue));                   
+    border-radius: 0 0 20px 20px;
+}
+nav{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;    
+}
+.flex{
+    display: flex;
+}
+.Logo{
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    height: 50px;
+    
+}
+.Logo>img{
+    height: auto;
+    width: auto;
+    margin: 0 0 0 10px;
+}
+.Logo:link, .Logo:visited{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+}
+.Logo>h1{
+    color: whitesmoke;
+}
+.search_bar{
+    border: solid black;
+    width: 45%;
+    background-color: white             ;
+}
